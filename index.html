@@ -11,50 +11,59 @@
         <h1>Anushka Lama Gole</h1>
         <p>My Ultimate Advanced Portfolio</p>
     </header>
+    
     <nav>
         <div class="ham">☰</div>
-        <ul>
+        <ul id="nav-list">
             <li><a href="#">Home</a></li>
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+
     <main>
         <section id="about-me">
-            <video autoplay loop muted>
-                <source src="images/skull.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <h2>About Me</h2>
-            <div class="about">
-                <img src="images/Duck.jpeg" alt="Anushka Lama Gole">
-                <h3>Anushka Lama Gole</h3>
-                <p>carpe diem</p>
+            <div class="video-container">
+                <video autoplay loop muted>
+                    <source src="images/skull.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="overlay"></div>
+            </div>
+            
+            <div class="about-content">
+                <h2>About Me</h2>
+                <div class="about">
+                    <img src="images/Duck.jpeg" alt="Anushka Lama Gole">
+                    <h3>Anushka Lama Gole</h3>
+                    <p>carpe diem</p>
+                </div>
             </div>
         </section>
+
         <section id="projects">
             <h2>Projects</h2>
             <div id="mainp">
                 <div class="project">
                     <h3>Project Title 1</h3>
-                    <p>ess.</p>
+                    <p>Description of project 1.</p>
                 </div>
                 <div class="project">
                     <h3>Project Title 2</h3>
-                    <p>ess.</p>
+                    <p>Description of project 2.</p>
                 </div>
                 <div class="project">
                     <h3>Project Title 3</h3>
-                    <p>ess.</p>
+                    <p>Description of project 3.</p>
                 </div>
                 <div class="project">
                     <h3>Project Title 4</h3>
-                    <p>ess.</p>
+                    <p>Description of project 4.</p>
                 </div>                
             </div>
-           
         </section>
+
         <section id="contact">
             <h2>Contact</h2>
             <form>
@@ -68,14 +77,14 @@
                 <textarea id="message" name="message" ></textarea>
                 
                 <button type="submit">Send</button>
+                <div class="msg">please fill in all the info before submitting.</div>
             </form>
-            <div class="msg">please fill in all the info before submitting.</div>
         </section>
     </main>
 
     <footer>
-        <p&>&copy; 2025 Anushka Lama. All Rights Reserved.</p>
+        <p>&copy; 2025 Anushka Lama. All Rights Reserved.</p>
     </footer>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
